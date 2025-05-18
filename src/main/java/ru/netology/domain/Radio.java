@@ -13,7 +13,7 @@ Radio(int stationCount) {
     this.stationCount = stationCount;
 }
     Radio() {
-        this.stationCount = 10;
+        this(10);
     }
 
     public int getCurrentVolume() {
